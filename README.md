@@ -10,6 +10,8 @@ numbers selected, and you want to increment/decrement them all by one.
 There may be another plugin that does this, this was also just an experiment
 with creating/publishing a Visual Studio Code plugin.
 
+![demo of the plusplus plugin](./images/plusplus.gif)
+
 ## Features
 
 Increments/decrements all of the selected numbers. It is suggested to only be
