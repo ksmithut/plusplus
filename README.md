@@ -39,3 +39,7 @@ your desired features/bug fixes.
 ### 1.0.0
 
 Initial release of plusplus
+
+### 1.0.1
+
+Adds gif to Readme (I know it's silly, should have had it for initial release)
