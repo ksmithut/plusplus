@@ -49,6 +49,16 @@
                 "key": "cmd+shift+-",
                 "command": "extension.decrement",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "cmd+shift+alt+=",
+                "command": "extension.incrementBy10",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "cmd+shift+alt+-",
+                "command": "extension.decrementBy10",
+                "when": "editorTextFocus"
             }
         ]
     },

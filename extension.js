@@ -8,6 +8,8 @@ var Selection = vscode.Selection
 exports.activate = function activate(context) {
     vscode.commands.registerCommand('extension.increment', increment)
     vscode.commands.registerCommand('extension.decrement', decrement)
+    vscode.commands.registerCommand('extension.incrementBy10', incrementBy10)
+    vscode.commands.registerCommand('extension.decrementBy10', decrementBy10)
 }
 
 exports.deactivate = function deactivate() {
@@ -58,4 +60,12 @@ function increment() {
 
 function decrement() {
     loopNumbers(function(num) { return num - 1 })
+}
+
+function incrementBy10() {
+    loopNumbers(function (num) { return num + 10 })
+}
+
+function decrementBy10() {
+    loopNumbers(function (num) { return num - 10 })
 }
