@@ -26,6 +26,8 @@ skipped as a non-number cannot be incremented/decremented.
 
 - `increment` Increments selected numbers `cmd + shift + =`
 - `decrement` Decrements selected numbers `cmd + shift + -`
+- `incrementBy10` Increments selected numbers by 10 `cmd + shift + alt + =`
+- `decrementBy10` Decrements selected numbers by 10 `cmd + shift + alt + -`
 
 ## Known Issues
 
@@ -43,3 +45,8 @@ Initial release of plusplus
 ### 1.0.1
 
 Adds gif to Readme (I know it's silly, should have had it for initial release)
+
+### 1.1.0
+
+Adds incrementBy10 and decrement by 10 (Thanks
+[andyparisi](https://github.com/andyparisi))
