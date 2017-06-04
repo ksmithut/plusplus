@@ -50,3 +50,7 @@ Adds gif to Readme (I know it's silly, should have had it for initial release)
 
 Adds incrementBy10 and decrement by 10 (Thanks
 [andyparisi](https://github.com/andyparisi))
+
+### 1.1.1
+
+Updates code style and updates devDependencies
